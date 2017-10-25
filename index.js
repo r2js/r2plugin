@@ -31,14 +31,9 @@ module.exports = function PluginService(app) {
   });
 
   return {
-    plugins(schema, {
-      query = true,
-      patchHistory = false,
-      modelPatches = false,
-    } = {}) {
+    plugins(schema, { query = true, patchHistory = false, modelPatches = false } = {}) {
       schema.post('save', handleIdValidator);
       schema.post('save', handleArrayUniqueValidator);
-
       libQuery(app, query, schema);
       libPatchHistory(app, patchHistory, schema);
       libModelPatches(app, modelPatches, schema);
