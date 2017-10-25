@@ -1,0 +1,53 @@
+{
+  "name": "r2plugin",
+  "description": "Mongoose plugins",
+  "version": "1.0.0",
+  "author": "Selçuk Fatih Sevinç",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "mongoose-batches": "0.0.1",
+    "mongoose-beautiful-unique-validation": "^7.0.0",
+    "mongoose-delete": "^0.4.0",
+    "mongoose-find-or-error": "^1.0.1",
+    "mongoose-findorcreate": "^2.0.0",
+    "mongoose-id-validator": "^0.4.3",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-patch-history": "^1.1.7",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.2.0",
+    "r2base": "^1.0.17",
+    "r2mongoose": "^1.0.5",
+    "r2query": "^1.0.12",
+    "supertest": "^3.0.0"
+  },
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "r2",
+    "mongoose",
+    "plugin"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r2js/r2plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r2js/r2plugin/issues"
+  },
+  "homepage": "https://github.com/r2js/r2plugin"
+}
