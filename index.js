@@ -11,7 +11,7 @@ const libQuery = require('./lib/query');
 const libPatchHistory = require('./lib/patchHistory');
 const libModelPatches = require('./lib/modelPatches');
 
-module.exports = function PluginService(app) {
+module.exports = function Plugin(app) {
   if (!app.hasServices('Mongoose|Query')) {
     return false;
   }

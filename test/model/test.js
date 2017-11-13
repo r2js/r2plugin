@@ -1,6 +1,6 @@
 module.exports = (app) => {
   const mongoose = app.service('Mongoose');
-  const Plugin = app.service('PluginService');
+  const Plugin = app.service('Plugin');
   const { Schema } = mongoose;
   const { ObjectId } = mongoose.Schema.Types;
 
