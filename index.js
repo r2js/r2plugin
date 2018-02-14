@@ -21,7 +21,7 @@ module.exports = function Plugin(app) {
 
   mongoose.plugin(findOrCreate);
   mongoose.plugin(beautifyUnique);
-  mongoose.plugin(softDelete);
+  mongoose.plugin(softDelete, { deletedAt: true, deletedBy: true });
   mongoose.plugin(idValidator);
   mongoose.plugin(paginate);
   mongoose.plugin(batchesPlugin);
