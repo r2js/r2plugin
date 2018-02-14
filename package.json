@@ -1,7 +1,7 @@
 {
   "name": "r2plugin",
   "description": "Mongoose plugins",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Selçuk Fatih Sevinç",
   "license": "MIT",
   "engines": {
@@ -16,7 +16,7 @@
     "mongoose-findorcreate": "^2.0.0",
     "mongoose-id-validator": "^0.4.3",
     "mongoose-paginate": "^5.0.3",
-    "mongoose-patch-history": "^1.1.7",
+    "mongoose-patch-history": "~1.1.7",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
